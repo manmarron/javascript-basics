@@ -4,18 +4,13 @@ const getNthElement = (index, array) => {
 };
 
 const arrayToCSVString = array => {
-    if(index > array.length) {
-      index = index - array.length
-        return array[index];
-    }
-    else{
-      return array[index];
-    };
-
+  // your code here
 };
+
 
 const csvStringToArray = string => {
   // your code here
+  return string.split(',');
 };
 
 const addToArray = (element, array) => {
