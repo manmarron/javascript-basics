@@ -1,10 +1,11 @@
 const getNthElement = (index, array) => {
-  return array[index];
+  return array[index % array.length];
   
 };
 
 const arrayToCSVString = array => {
   // your code here
+  return array.join(',');
 };
 
 
@@ -15,6 +16,7 @@ const csvStringToArray = string => {
 
 const addToArray = (element, array) => {
   // your code here
+
 };
 
 const addToArray2 = (element, array) => {
